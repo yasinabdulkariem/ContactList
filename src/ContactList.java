@@ -2,13 +2,13 @@
 
 import java.util.ArrayList;
 import java.util.Scanner;
-import java.util.Collections;
+
 public class ContactList {
     private ArrayList<Person> contacts;
     private Scanner s;
 
     public ContactList(){
-        contacts = new ArrayList<Person>();
+        contacts = new ArrayList<>();
         s = new Scanner(System.in);
     }
 
